@@ -81,11 +81,11 @@ export default Mapper;
 |**fillColor**|*string*|Fill color of the highlighted zone|rgba(255, 255, 255, 0.5)|        
 |**strokeColor**|*string*|Border color of the highlighted zone|rgba(0, 0, 0, 0.5)|        
 |**lineWidth**|*number*|Border thickness of the highlighted zone|1|        
-|**width**|*number \| func*|Image width, in function you will get image reference object|0|        
-|**height**|*number \| func*|Image height, in function you will get image reference object|0|        
+|**width**|*number \| func*|Image width in pixels, in function you will get image reference object|0|        
+|**height**|*number \| func*|Image height in pixels, in function you will get image reference object|0|        
 |**active**|*bool*|Enable/Disable highlighting|true|    
 |**disabled**|*bool*|Enable/Disable area listeners and highlighting|false|    
-|**imgWidth**|*number*|Original image width|0|        
+|**imgWidth**|*number*|Original image width in pixels|0|        
 |**natural**|*bool*|Give the original dimensions ( height & width ) to canvas and image wrapper|false|        
 |**stayHighlighted**|*bool*|You can see the highlighted area after clicking on the particular area|false|
 |**stayMultiHighlighted**|*bool*|You can see the multiple highlighted area after clicking on the particular area|false|
